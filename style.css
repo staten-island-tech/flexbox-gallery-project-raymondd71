@@ -14,6 +14,7 @@ html,
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    border: 30% solid pink;
 }
 .card{
     width: :30%;
