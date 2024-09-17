@@ -6,27 +6,29 @@ html,
     margin: 0;
     padding: 0;
 }
+
 .container{
-    display: flex;
+    display:flex;
     width: 90vw;
     margin: 2rem auto;
-    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    border: 30% solid pink;
+    justify-content: space-around;
+
 }
 .card{
-    width: :30%;
-    height: 35rem;
+    width:26%;
+    height: 50rem;
     border: 2px solid black;
     border-radius: 3px;
     display:flex;
     flex-direction:column; 
     align-items: center;
+    margin-bottom: 5%;
     justify-content: space-around;
     background-image: url();
-    margin:2rem auto;
+    
 }
 .card-image{
     width: 100%;
@@ -38,3 +40,14 @@ html,
     font-size: 2.2rem;
     margin-top: 1.2rem;
 }
+
+a{
+    text-decoration: none;
+}
+button{
+    transition:all 0.3s;
+    background-color:blue;
+}
+button :hover{
+    transform: scale(2) translateY(-10px);
+    }
