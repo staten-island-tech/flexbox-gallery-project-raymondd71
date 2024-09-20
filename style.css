@@ -41,7 +41,9 @@ body{
     align-items: center;
     margin-bottom: 5%;
     justify-content: space-around;
-    background-color: rgb(211,211,211,.5)
+    background-color: rgb(211,211,211,.5);
+    box-shadow: 5px 5px 5px gray;
+
     
     
 }
