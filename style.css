@@ -5,12 +5,17 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+body{
+    background-image: url("https://th.bing.com/th?id=OIP.lYq9y4B2KzZkYVSwsalS5wHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
 }
 .header{ 
     font-size: 50px;
     text-align: center;
     margin-top:2%;
     margin-bottom: 5%;
+
 
 
 }
@@ -24,7 +29,6 @@ html,
     align-items: center;
     justify-content: space-around;
 
-
 }
 .card{
     height: 50rem;
@@ -37,7 +41,7 @@ html,
     align-items: center;
     margin-bottom: 5%;
     justify-content: space-around;
-    background-image: url();
+    background-color: rgb(211,211,211,.5)
     
     
 }
@@ -51,7 +55,8 @@ html,
     flex-direction:column;
 }
 .card{
-    width:90%
+    width:90%;
+
 }
 }
 .card-image{
@@ -60,11 +65,13 @@ html,
     object-fit:cover;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .card-header{
     font-size: 2.2rem;
     margin-top: 1.2rem;
+
 }
 #monkeyimage{
 transition: all 0.3s
@@ -79,13 +86,14 @@ transition: all 0.3s
 }
 #blueviperimage:hover{
     transform: 
-    scale(1.15)
+    scale(3,1.5)
 }
-#image3{
-    transition: all 0.3
+#image3 {
+
+    transition: transform 0.8s ease;
 }
 
-#image3:hover{
-    transform:
-    rotate(45deg);
+
+#image3:hover {
+    transform: rotate(360deg);
 }
